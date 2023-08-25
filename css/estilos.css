@@ -1,6 +1,10 @@
 body {
     background-color: black;
+}
 
+nav {
+  display: flex;
+  justify-content: space-around;
 }
 
 h1 {
@@ -8,25 +12,37 @@ h1 {
     color: white;
 }
 
-.letter {
-    color: white;  
+span,a,p,h3 {
+  color: white;
 }
 
-
-nav {
+.upper{
   display: flex;
   justify-content: space-around;
 }
+.contacto{
+  text-align: center;
 
-footer {
-  background-color: white;
+}
+#mapa{
+
+}
+
+.logo{
+  text-align: center;
+
+}
+
+.tarjetas{
+  max-width: 10%;
+  vertical-align: middle;
+  margin: 10px;  
 }
 
 @media (max-width: 768px) {
     
 }
 
-/* 
 .slider {
     position: relative;
     width: 100%;
@@ -45,7 +61,6 @@ footer {
   }
   
   .slides img {
-    width: 33.333%;
     height: 400px;
   }
   
@@ -72,4 +87,4 @@ footer {
   .prev:hover,
   .next:hover {
     color: gray;
-  } */
+  }
